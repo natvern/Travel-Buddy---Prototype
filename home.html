@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Home</title>
+    <meta charset = "UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <style type="text/css">
+        @import url("home.css");
+        a {color : #000; }
+    </style>
+</head>
+
+<body>
+    <center>
+    <h1 style="font-family: 'Source Sans Pro', sans-serif;">TravelBuddy</h1>
+    <table>
+        <td>
+            <h2 style="font-family: 'Source Sans Pro', sans-serif;">Origin</h2>
+            <div class="selection">
+                    <select id = "myList">
+                            <option value = "1">Qatar</option>
+                            <option value = "2">United Kingdom</option>
+                            <option value = "3">South Korea</option>
+                            <option value = "4">India</option>
+                    </select>
+            </div>
+        </td>
+        <td>
+            <h2 style="font-family: 'Source Sans Pro', sans-serif;">Destination</h2>
+            <div class="selection">
+                    <select id = "myList">
+                            <option value = "1">Serbia</option>
+                            <option value = "2">Japan</option>
+                            <option value = "3">Turkey</option>
+                            <option value = "4">Canada</option>
+                    </select>
+            </div>
+        </td>
+        <td>
+            <h2 style="font-family: 'Source Sans Pro', sans-serif;">Depart</h2>
+            <input type="week" name="week" id="camp-week" min="2018-W18" required>
+        </td>
+        <td>
+            <h2 style="font-family: 'Source Sans Pro', sans-serif;">Return</h2>
+            <input type="week" name="week" id="camp-week" min="2018-W18" required>
+        </td>
+        <td>
+            <a href="buddies.html"><div class="searchButton">Search</div></a>
+        </td>
+    </table>
+    </center>
+    <img class="subimage" src="images/background.jpeg" />
+</body>

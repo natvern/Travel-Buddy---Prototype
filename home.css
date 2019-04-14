@@ -1,0 +1,48 @@
+body {
+    overflow: hidden;
+    padding: 0;
+}
+
+h1 {
+    color: #46525E; 
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 1px;
+    border: 1px solid grey;
+}
+
+select {
+    width: 150px;
+    height: 34px;
+    border-radius: 3px;
+}
+
+.subimage {
+    width: 100%;
+    margin-left: -8px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0;
+}
+
+.searchButton {
+    width: 40px;
+    padding: 5px 50px 15px 40px;
+    height: 10px;
+    background-color: #46525E;
+    color: white;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 3px;
+}
