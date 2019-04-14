@@ -32,3 +32,34 @@
     margin-left: 50px;
     width: 100px;
 }
+
+.price {
+    font-size: 24px;
+    color: grey;
+    margin-left: -200px;
+}
+
+.specialBuddy {
+    width: 150px;
+    height: 150px;
+    background-image: url("images/dorde.jpg");
+    background-size: 150px;
+    border-radius: 75px;
+}
+
+.msg {
+    right: 20px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #FFBA5C;
+    margin: 20px;
+}
+
+.send {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    width: 300px;
+    background-color: #00A6FF;
+}

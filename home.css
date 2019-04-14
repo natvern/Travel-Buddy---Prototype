@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     color: #46525E; 
     font-size: 40px;
